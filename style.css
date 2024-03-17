@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+h1,ul,li{
+    display: inline;
+}
+
+ul{
+    margin-left: 65%;
+}
+
+li{
+    color: grey;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    padding: 10px;
+    margin: 20px;
+    width: 60%;
+}
+
+.searchbar{
+    text-align: center;
+}
+
+.collection{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    width: 220px;
+    display: inline-block;
+}
+
+.box p:hover{
+    background-color: black;
+    color: white;
+}
+
+.about{
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+}
